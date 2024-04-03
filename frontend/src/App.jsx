@@ -1,13 +1,15 @@
 
 import './index.css'
+import hero from "./assets/herosection.png"
+
 //"h-full w-full bg-grey-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
 function App() {
 
   return (
     <>
     
-    <body className="h-screen bg-black text-center">
-     
+    <body className="h-screen w-screen bg-black text-center">
+      <img src={hero} className="brightness-40" />
       <h1 className='font-bold text-white pb-20 pt-20' >
       Jeremy Villanueva 
       </h1>
@@ -15,10 +17,13 @@ function App() {
     
       Software Developer 
       </h1>
+      
+
+
       <div className='font-bold text-white'>
         About
       </div>
-      <img src="/herosection.png"/>
+      
       <div className='font-bold text-white'>
         Experience
       </div>
@@ -33,10 +38,6 @@ function App() {
     
     </body>
       
-
-    
-
-
     </>
     
     
