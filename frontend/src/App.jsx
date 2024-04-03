@@ -17,18 +17,27 @@ function App() {
   return (
     <>
    
-
-    <div className="bg-black text-center text-white">
-
-    <div class="bg-hero relative bg-cover bg-center h-screen">
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        <div class="absolute inset-0 flex justify-center items-center">
-            <div class="absolute text-center text-white">
-                <h1 class="text-8xl font-bold mt-2">Jeremy Villanueva</h1>
-                <p class="mt-20 text-2xl">Software Developer</p>
-            </div>
+   <div class="relative h-screen">
+        
+        <div class="bg-hero absolute inset-0 bg-cover bg-center"></div>
+        
+        
+        <div class="absolute inset-0 bg-black opacity-65"></div>
+        
+        
+        <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 text-center text-white w-full">
+            <h1 class="text-8xl font-bold">Jeremy Villanueva</h1>
+            <p class="mt-10 text-3xl">Software Developer</p>
         </div>
-    </div>    
+    </div>
+
+
+   {/* <div class="bg-black relative bg-cover bg-center h-screen flex justify-center items-start">
+    <div class="text-center text-white">
+        <h1 class="text-8xl font-bold mt-1/3">Jeremy Villanueva</h1>
+        <p class="mt-8 text-2xl">Software Developer</p>
+    </div>
+  </div>   */}
 
 
       {/* <div class="bg-hero w-full h-auto bg-cover">
@@ -61,7 +70,6 @@ function App() {
         </div>
       </div>
      */}
-    </div>
       
     </>
     
