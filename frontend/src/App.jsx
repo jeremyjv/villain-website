@@ -1,17 +1,47 @@
-import { useState } from 'react'
-import './App.css'
+
 import './index.css'
 //"h-full w-full bg-grey-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+    
+    <body className="h-screen bg-black text-center">
+     
+      <h1 className='font-bold text-white pb-20 pt-20' >
+      Jeremy Villanueva 
+      </h1>
+      <h1 className='font-bold text-white'>
+    
+      Software Developer 
+      </h1>
+      <div className='font-bold text-white'>
+        About
+      </div>
+      <img src="/herosection.png"/>
+      <div className='font-bold text-white'>
+        Experience
+      </div>
+      <div className="flex h-full w-full">
+        <div className= "h-1/3 w-1/3">
+          
+        </div>
+        <div className= "shadow-md shadow-white font-bold align-center text-white h-1/3 w-2/3 bg-blue-200 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 pr-20">
+          Portfolio
+        </div>
+      </div>
+    
+    </body>
+      
 
-     <div className="text-left">
-        Hello World
-     </div>
+    
+
+
     </>
+    
+    
+    
+   
   )
 }
 
