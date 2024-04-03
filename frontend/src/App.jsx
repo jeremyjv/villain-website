@@ -3,24 +3,49 @@ import './index.css'
 import hero from "./assets/herosection.png"
 
 //"h-full w-full bg-grey-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
+{/* <img src={hero} class="w-full h-auto filter brightness-50" />
+<h1 className='text-center absolute top-0 right-1/4 font-bold text-white text-8xl' >
+Jeremy Villanueva 
+</h1>
+<h1 className='text-center absolute top-1/2 right-1/4 font-bold text-white'>
+Software Developer 
+</h1> */}
+
+
 function App() {
 
   return (
     <>
-    
-    <body className="h-screen w-screen bg-black text-center">
-      <img src={hero} className="brightness-40" />
-      <h1 className='font-bold text-white pb-20 pt-20' >
-      Jeremy Villanueva 
-      </h1>
-      <h1 className='font-bold text-white'>
-    
-      Software Developer 
-      </h1>
+   
+
+    <div className="bg-black text-center text-white">
+
+    <div class="bg-hero relative bg-cover bg-center h-screen">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 flex justify-center items-center">
+            <div class="absolute text-center text-white">
+                <h1 class="text-8xl font-bold mt-2">Jeremy Villanueva</h1>
+                <p class="mt-20 text-2xl">Software Developer</p>
+            </div>
+        </div>
+    </div>    
+
+
+      {/* <div class="bg-hero w-full h-auto bg-cover">
+          <div className='bg-transparent text-white'>Jeremy Villanueva</div>
+          <div className='bg-transparent text-white'>Software Developer</div>
+      </div> */}
+
+
+      
+      
+      
+      
+
       
 
 
-      <div className='font-bold text-white'>
+      {/* <div className='font-bold text-white'>
         About
       </div>
       
@@ -35,8 +60,8 @@ function App() {
           Portfolio
         </div>
       </div>
-    
-    </body>
+     */}
+    </div>
       
     </>
     
