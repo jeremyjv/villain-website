@@ -5,10 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero': "url('src/assets/herosection.png')",
-      }
+    // extend: {
+    //   backgroundImage: {
+    //     'hero': "url('src/assets/herosection.png')",
+    //   }
+    // },
+    fontFamily: {
+      body: ['Azeret Mono']
     },
   },
   plugins: [],
